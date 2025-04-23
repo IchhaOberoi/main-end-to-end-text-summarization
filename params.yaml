@@ -1,1 +1,14 @@
-key: val
+TrainingArguments:
+   num_train_epochs: 1                    # Training for 1 epoch
+   per_device_train_batch_size: 1          # Use smaller batch size for CPU
+   per_device_eval_batch_size: 1           # Smaller batch size for evaluation
+   logging_steps: 500                     # Log every 500 steps
+   save_strategy: 'no'                   # Don't save checkpoints during training (or you can set it to 'epoch' to save after each epoch)
+   remove_unused_columns: True             # Remove unused columns during training
+   report_to: 'none'                 # Disable logging to any external systems (like TensorBoard)
+   gradient_accumulation_steps: 8          # Accumulate gradients over 8 steps (this simulates a larger batch size)
+   dataloader_num_workers: 0            # Disable multi-threading for data loading
+   fp16: False                             # Disable mixed precision (works only on GPUs)
+   seed: 42,                                # For reproducibility                                              # Evaluate after each epoch
+   load_best_model_at_end: True           # Load the best model based on evaluation during training
+   metric_for_best_model: "loss"
