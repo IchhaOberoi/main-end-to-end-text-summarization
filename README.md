@@ -1,3 +1,5 @@
+# Project Summary
+
 This project is an end-to-end implementation of a **Text Summarization System** using **Google's T5 Transformer model**, trained on the **SAMSum dataset**. It features a complete ML pipeline with modular scripts and an API built using **FastAPI** for serving predictions.
 
 ## Key Features
