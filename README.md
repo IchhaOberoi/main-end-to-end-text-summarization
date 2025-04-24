@@ -1,5 +1,23 @@
 This project is an end-to-end implementation of a **Text Summarization System** using **Google's T5 Transformer model**, trained on the **SAMSum dataset**. It features a complete ML pipeline with modular scripts and an API built using **FastAPI** for serving predictions.
 
+## Key Features
+
+**Dataset**: SAMSum – for dialogue summarization
+ 
+**Model**: T5-small (by Google)
+
+**Frameworks**: PyTorch, Hugging Face Transformers, FastAPI
+
+**Modular Components**:
+  - Data Ingestion
+  - Data Validation
+  - Data Transformation
+  - Model Training
+  - Model Evaluation
+  - Prediction Pipeline (API)
+
+## Getting Started
+
 Update params.yaml
 
 Update entity
@@ -14,16 +32,16 @@ update the main.py
 
 update the app.py
 
-# How to run?
+## How to run?
 STEPS:
 
 Clone the repository
 
 https://github.com/IchhaOberoi/main-end-to-end-text-summarization.git
 
-# STEP 01- Create a conda environment after opening the repository
+## STEP 01- Create a conda environment after opening the repository
 
-# STEP 02- install the requirements
+## STEP 02- install the requirements
 
 pip install -r requirements.txt
 
