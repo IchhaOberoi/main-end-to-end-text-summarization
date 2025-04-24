@@ -39,9 +39,9 @@ Clone the repository
 
 https://github.com/IchhaOberoi/main-end-to-end-text-summarization.git
 
-## STEP 01- Create a conda environment after opening the repository
+**STEP 01**- Create a conda environment after opening the repository
 
-## STEP 02- install the requirements
+**STEP 02**- install the requirements
 
 pip install -r requirements.txt
 
